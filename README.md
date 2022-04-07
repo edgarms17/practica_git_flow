@@ -1,2 +1,2 @@
-# practica_git_flow
+#Cómputo distribuído
 #Esta es la rama development
