@@ -1,3 +1,3 @@
-# practica_git_flow
-#Esta es la rama development
+# Rama features
+
 #Esta es la rama features
