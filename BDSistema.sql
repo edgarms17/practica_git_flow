@@ -48,3 +48,20 @@ update Productos set Imagen="jjk232.png" where IdProducto=2
 
 Delete from Productos where IdProducto=2
 
+Create table Direccion(
+IdDireccion int primary key not null auto_increment,
+IdUsuario int not null,
+Calle varchar(20) not null,
+Numero_ext varchar(5) not null,
+Colonia varchar(20) not null,
+Ciudad varchar(15) not null,
+CodigoPostal varchar(5) not null,
+CONSTRAINT FOREIGN KEY fk_usuario (idUsuario) REFERENCES usuario (IdUser)
+)
+
+Create table Vendedor(
+IdVendedor int primary key not null auto_increment,
+IdUsuario int not null,
+Reputacion varchar(20) not null,
+CONSTRAINT FOREIGN KEY fk_usuario (idUsuario) REFERENCES usuario (IdUser)
+)
