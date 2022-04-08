@@ -29,13 +29,47 @@ namespace Sistema_Compra_Venta
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnUser = new System.Windows.Forms.Button();
+            this.btnProducto = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnUser
+            // 
+            this.btnUser.Location = new System.Drawing.Point(153, 127);
+            this.btnUser.Name = "btnUser";
+            this.btnUser.Size = new System.Drawing.Size(162, 85);
+            this.btnUser.TabIndex = 0;
+            this.btnUser.Text = "Usuario";
+            this.btnUser.UseVisualStyleBackColor = true;
+            this.btnUser.Click += new System.EventHandler(this.btnUser_Click);
+            // 
+            // btnProducto
+            // 
+            this.btnProducto.Location = new System.Drawing.Point(454, 127);
+            this.btnProducto.Name = "btnProducto";
+            this.btnProducto.Size = new System.Drawing.Size(162, 85);
+            this.btnProducto.TabIndex = 1;
+            this.btnProducto.Text = "Producto";
+            this.btnProducto.UseVisualStyleBackColor = true;
+            this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnProducto);
+            this.Controls.Add(this.btnUser);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnUser;
+        private System.Windows.Forms.Button btnProducto;
     }
 }
 
