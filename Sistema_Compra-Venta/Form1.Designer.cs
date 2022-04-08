@@ -31,6 +31,8 @@ namespace Sistema_Compra_Venta
         {
             this.btnUser = new System.Windows.Forms.Button();
             this.btnProducto = new System.Windows.Forms.Button();
+            this.btnDireccion = new System.Windows.Forms.Button();
+            this.btnVendedor = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnUser
@@ -53,11 +55,33 @@ namespace Sistema_Compra_Venta
             this.btnProducto.UseVisualStyleBackColor = true;
             this.btnProducto.Click += new System.EventHandler(this.btnProducto_Click);
             // 
+            // btnDireccion
+            // 
+            this.btnDireccion.Location = new System.Drawing.Point(153, 275);
+            this.btnDireccion.Name = "btnDireccion";
+            this.btnDireccion.Size = new System.Drawing.Size(162, 85);
+            this.btnDireccion.TabIndex = 2;
+            this.btnDireccion.Text = "Direccion";
+            this.btnDireccion.UseVisualStyleBackColor = true;
+            this.btnDireccion.Click += new System.EventHandler(this.btnDireccion_Click);
+            // 
+            // btnVendedor
+            // 
+            this.btnVendedor.Location = new System.Drawing.Point(454, 275);
+            this.btnVendedor.Name = "btnVendedor";
+            this.btnVendedor.Size = new System.Drawing.Size(162, 85);
+            this.btnVendedor.TabIndex = 3;
+            this.btnVendedor.Text = "Vendedor";
+            this.btnVendedor.UseVisualStyleBackColor = true;
+            this.btnVendedor.Click += new System.EventHandler(this.btnVendedor_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnVendedor);
+            this.Controls.Add(this.btnDireccion);
             this.Controls.Add(this.btnProducto);
             this.Controls.Add(this.btnUser);
             this.Name = "Form1";
@@ -70,6 +94,8 @@ namespace Sistema_Compra_Venta
 
         private System.Windows.Forms.Button btnUser;
         private System.Windows.Forms.Button btnProducto;
+        private System.Windows.Forms.Button btnDireccion;
+        private System.Windows.Forms.Button btnVendedor;
     }
 }
 

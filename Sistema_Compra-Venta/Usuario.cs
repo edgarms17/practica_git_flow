@@ -57,10 +57,9 @@ namespace Sistema_Compra_Venta
             con.Close();
         }
 
-        public static void UpdateUser(string Nombre_Usuario, string Nombre, string Apellido_Paterno, string Apellido_Materno, string Correo_Electronico, string Telefono, string Pais)
+        public static void UpdateUser(string Nombre_Usuario, string Nombre, string Apellido_Paterno, string Apellido_Materno, string Correo_Electronico, string Telefono, string Pais, int ID)
         {
-            string sql = "Update usuario Set Nombre_Usuario=@Nombre_Usuario,Nombre=@Nombre,Apellido_Paterno=@Apellido_Paterno," +
-                "Apellido_Materno=@Apellido_Materno,Correo_Electronico=@Correo_Electronico,Telefono=@Telefono,País=@País)";
+            string sql = "Update usuario SET Nombre_Usuario=@Nombre_Usuario,Nombre=@Nombre,Apellido_Paterno=@Apellido_Paterno,Apellido_Materno=@Apellido_Materno,Correo_Electronico=@Correo_Electronico,Telefono=@Telefono,País=@País WHERE IdUser=@ID";
             MySqlConnection con = GetMySqlConnection();
             MySqlCommand cmd = new MySqlCommand(sql, con);
             cmd.CommandType = CommandType.Text;
@@ -71,6 +70,39 @@ namespace Sistema_Compra_Venta
             cmd.Parameters.Add("@Correo_Electronico", MySqlDbType.VarChar).Value = Correo_Electronico;
             cmd.Parameters.Add("@Telefono", MySqlDbType.VarChar).Value = Telefono;
             cmd.Parameters.Add("@País", MySqlDbType.VarChar).Value = Pais;
+            cmd.Parameters.Add("@ID", MySqlDbType.Int32).Value = ID;
+            try
+            {
+                cmd.ExecuteNonQuery();
+                MessageBox.Show("Added successfully", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (MySqlException ex)
+            {
+                MessageBox.Show("MySQL Connection! \n" + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            con.Close();
+        }
+
+        public static void Consulta(string NombreUsuario, DataGridView dgv)
+        {
+            string sql = "Select * from usuario where Nombre_Usuario=@NombreUsuario";
+            MySqlConnection con = GetMySqlConnection();
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            cmd.Parameters.Add("@NombreUsuario", MySqlDbType.VarChar).Value = NombreUsuario;
+            MySqlDataAdapter adp = new MySqlDataAdapter(cmd);
+            DataTable tbl = new DataTable();
+            adp.Fill(tbl);
+            dgv.DataSource = tbl;
+            con.Close();
+        }
+
+        public static void Borrauser(int ID)
+        {
+            string sql = "Delete from Usuario where IdUser=@ID";
+            MySqlConnection con = GetMySqlConnection();
+            MySqlCommand cmd = new MySqlCommand(sql, con);
+            cmd.CommandType = CommandType.Text;
+            cmd.Parameters.Add("@ID", MySqlDbType.Int32).Value = ID;
             try
             {
                 cmd.ExecuteNonQuery();
@@ -93,6 +125,31 @@ namespace Sistema_Compra_Venta
             string Telefono = txtTel.Text;
             string Pais = txtPais.Text;
             AddUser(Nombre_Usuario, Nombre, Apellido_Paterno, Apellido_Materno, Correo_Electronico, Telefono, Pais);
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            string Nombre_Usuario = txtUNombreUser.Text;
+            string Nombre = txtUNombre.Text;
+            string Apellido_Paterno = txtUAP.Text;
+            string Apellido_Materno = txtUAM.Text;
+            string Correo_Electronico = txtUCorreo.Text;
+            string Telefono = txtUTel.Text;
+            string Pais = txtUPais.Text;
+            int ID = Convert.ToInt32(txtID.Text);
+            UpdateUser(Nombre_Usuario, Nombre, Apellido_Paterno, Apellido_Materno, Correo_Electronico, Telefono, Pais,ID);
+        }
+
+        private void btnDel_Click(object sender, EventArgs e)
+        {
+            int ID = Convert.ToInt32(txtID.Text);
+            Borrauser(ID);
+        }
+
+        private void btnConsulta_Click(object sender, EventArgs e)
+        {
+            string NombreUsuario=txtCNombreUsuario.Text;
+            Consulta(NombreUsuario, dataGridView1);
         }
     }
 }

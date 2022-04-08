@@ -30,5 +30,19 @@ namespace Sistema_Compra_Venta
             p.Show();
             this.Hide();
         }
+
+        private void btnDireccion_Click(object sender, EventArgs e)
+        {
+            Direccion p = new Direccion();
+            p.Show();
+            this.Hide();
+        }
+
+        private void btnVendedor_Click(object sender, EventArgs e)
+        {
+            Vendedor p = new Vendedor();
+            p.Show();
+            this.Hide();
+        }
     }
 }

@@ -70,6 +70,8 @@ namespace Sistema_Compra_Venta
             this.label22 = new System.Windows.Forms.Label();
             this.txtENombreUsuario = new System.Windows.Forms.TextBox();
             this.btnDel = new System.Windows.Forms.Button();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
             this.PAdd.SuspendLayout();
             this.PCons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -89,6 +91,7 @@ namespace Sistema_Compra_Venta
             // 
             // PAdd
             // 
+            this.PAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PAdd.Controls.Add(this.label8);
             this.PAdd.Controls.Add(this.label6);
             this.PAdd.Controls.Add(this.label5);
@@ -223,6 +226,7 @@ namespace Sistema_Compra_Venta
             // 
             // PCons
             // 
+            this.PCons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PCons.Controls.Add(this.dataGridView1);
             this.PCons.Controls.Add(this.label14);
             this.PCons.Controls.Add(this.txtCNombreUsuario);
@@ -256,6 +260,7 @@ namespace Sistema_Compra_Venta
             this.btnConsulta.TabIndex = 0;
             this.btnConsulta.Text = "Buscar";
             this.btnConsulta.UseVisualStyleBackColor = true;
+            this.btnConsulta.Click += new System.EventHandler(this.btnConsulta_Click);
             // 
             // dataGridView1
             // 
@@ -267,6 +272,9 @@ namespace Sistema_Compra_Venta
             // 
             // pModificar
             // 
+            this.pModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.pModificar.Controls.Add(this.label16);
+            this.pModificar.Controls.Add(this.txtID);
             this.pModificar.Controls.Add(this.label7);
             this.pModificar.Controls.Add(this.label9);
             this.pModificar.Controls.Add(this.label10);
@@ -407,9 +415,11 @@ namespace Sistema_Compra_Venta
             this.btnUpdate.TabIndex = 0;
             this.btnUpdate.Text = "Modificar";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // PDel
             // 
+            this.PDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PDel.Controls.Add(this.label22);
             this.PDel.Controls.Add(this.txtENombreUsuario);
             this.PDel.Controls.Add(this.btnDel);
@@ -442,6 +452,23 @@ namespace Sistema_Compra_Venta
             this.btnDel.TabIndex = 0;
             this.btnDel.Text = "Eliminar";
             this.btnDel.UseVisualStyleBackColor = true;
+            this.btnDel.Click += new System.EventHandler(this.btnDel_Click);
+            // 
+            // txtID
+            // 
+            this.txtID.Location = new System.Drawing.Point(237, 73);
+            this.txtID.Name = "txtID";
+            this.txtID.Size = new System.Drawing.Size(100, 20);
+            this.txtID.TabIndex = 17;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(254, 60);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(18, 13);
+            this.label16.TabIndex = 18;
+            this.label16.Text = "ID";
             // 
             // Usuario
             // 
@@ -510,5 +537,7 @@ namespace Sistema_Compra_Venta
         private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox txtENombreUsuario;
         private System.Windows.Forms.Button btnDel;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.TextBox txtID;
     }
 }

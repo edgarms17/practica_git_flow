@@ -1,7 +1,7 @@
 ﻿
 namespace Sistema_Compra_Venta
 {
-    partial class Productos
+    partial class Direccion
     {
         /// <summary>
         /// Required designer variable.
@@ -30,23 +30,18 @@ namespace Sistema_Compra_Venta
         private void InitializeComponent()
         {
             this.PDel = new System.Windows.Forms.Panel();
-            this.label22 = new System.Windows.Forms.Label();
             this.txtENombreUsuario = new System.Windows.Forms.TextBox();
             this.btnDel = new System.Windows.Forms.Button();
             this.pModificar = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
-            this.txtMPrecio = new System.Windows.Forms.TextBox();
-            this.txtDesCompl = new System.Windows.Forms.TextBox();
-            this.txtMDesgral = new System.Windows.Forms.TextBox();
-            this.txtMNomProd = new System.Windows.Forms.TextBox();
             this.btnUpdate = new System.Windows.Forms.Button();
             this.PCons = new System.Windows.Forms.Panel();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.label14 = new System.Windows.Forms.Label();
             this.txtCNombreProd = new System.Windows.Forms.TextBox();
             this.btnConsulta = new System.Windows.Forms.Button();
             this.PAdd = new System.Windows.Forms.Panel();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -57,13 +52,22 @@ namespace Sistema_Compra_Venta
             this.txtDesgral = new System.Windows.Forms.TextBox();
             this.txtNombreProd = new System.Windows.Forms.TextBox();
             this.btnAdd = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
-            this.dsad = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
             this.PDel.SuspendLayout();
             this.pModificar.SuspendLayout();
             this.PCons.SuspendLayout();
@@ -74,22 +78,13 @@ namespace Sistema_Compra_Venta
             // PDel
             // 
             this.PDel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.PDel.Controls.Add(this.label22);
+            this.PDel.Controls.Add(this.label14);
             this.PDel.Controls.Add(this.txtENombreUsuario);
             this.PDel.Controls.Add(this.btnDel);
-            this.PDel.Location = new System.Drawing.Point(481, 252);
+            this.PDel.Location = new System.Drawing.Point(487, 252);
             this.PDel.Name = "PDel";
             this.PDel.Size = new System.Drawing.Size(351, 69);
-            this.PDel.TabIndex = 22;
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(36, 8);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(90, 13);
-            this.label22.TabIndex = 9;
-            this.label22.Text = "Nombre Producto";
+            this.PDel.TabIndex = 26;
             // 
             // txtENombreUsuario
             // 
@@ -110,32 +105,34 @@ namespace Sistema_Compra_Venta
             // pModificar
             // 
             this.pModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.pModificar.Controls.Add(this.comboBox2);
-            this.pModificar.Controls.Add(this.label10);
-            this.pModificar.Controls.Add(this.label9);
             this.pModificar.Controls.Add(this.label6);
+            this.pModificar.Controls.Add(this.textBox2);
+            this.pModificar.Controls.Add(this.comboBox2);
             this.pModificar.Controls.Add(this.label7);
-            this.pModificar.Controls.Add(this.dsad);
+            this.pModificar.Controls.Add(this.label9);
+            this.pModificar.Controls.Add(this.label10);
+            this.pModificar.Controls.Add(this.label11);
+            this.pModificar.Controls.Add(this.label12);
+            this.pModificar.Controls.Add(this.textBox3);
+            this.pModificar.Controls.Add(this.textBox4);
+            this.pModificar.Controls.Add(this.textBox5);
+            this.pModificar.Controls.Add(this.textBox6);
             this.pModificar.Controls.Add(this.label16);
             this.pModificar.Controls.Add(this.txtID);
-            this.pModificar.Controls.Add(this.txtMPrecio);
-            this.pModificar.Controls.Add(this.txtDesCompl);
-            this.pModificar.Controls.Add(this.txtMDesgral);
-            this.pModificar.Controls.Add(this.txtMNomProd);
             this.pModificar.Controls.Add(this.btnUpdate);
-            this.pModificar.Location = new System.Drawing.Point(8, 244);
+            this.pModificar.Location = new System.Drawing.Point(14, 244);
             this.pModificar.Name = "pModificar";
             this.pModificar.Size = new System.Drawing.Size(420, 229);
-            this.pModificar.TabIndex = 20;
+            this.pModificar.TabIndex = 24;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.Location = new System.Drawing.Point(254, 60);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(18, 13);
+            this.label16.Size = new System.Drawing.Size(66, 13);
             this.label16.TabIndex = 18;
-            this.label16.Text = "ID";
+            this.label16.Text = "ID Direccion";
             // 
             // txtID
             // 
@@ -143,35 +140,6 @@ namespace Sistema_Compra_Venta
             this.txtID.Name = "txtID";
             this.txtID.Size = new System.Drawing.Size(100, 20);
             this.txtID.TabIndex = 17;
-            // 
-            // txtMPrecio
-            // 
-            this.txtMPrecio.Location = new System.Drawing.Point(19, 165);
-            this.txtMPrecio.Name = "txtMPrecio";
-            this.txtMPrecio.Size = new System.Drawing.Size(100, 20);
-            this.txtMPrecio.TabIndex = 5;
-            // 
-            // txtDesCompl
-            // 
-            this.txtDesCompl.Location = new System.Drawing.Point(19, 135);
-            this.txtDesCompl.Name = "txtDesCompl";
-            this.txtDesCompl.Size = new System.Drawing.Size(100, 20);
-            this.txtDesCompl.TabIndex = 4;
-            // 
-            // txtMDesgral
-            // 
-            this.txtMDesgral.Location = new System.Drawing.Point(19, 93);
-            this.txtMDesgral.Name = "txtMDesgral";
-            this.txtMDesgral.Size = new System.Drawing.Size(100, 20);
-            this.txtMDesgral.TabIndex = 3;
-            // 
-            // txtMNomProd
-            // 
-            this.txtMNomProd.Location = new System.Drawing.Point(19, 21);
-            this.txtMNomProd.Name = "txtMNomProd";
-            this.txtMNomProd.Size = new System.Drawing.Size(100, 20);
-            this.txtMNomProd.TabIndex = 1;
-            this.txtMNomProd.TextChanged += new System.EventHandler(this.txtUNombreUser_TextChanged);
             // 
             // btnUpdate
             // 
@@ -185,32 +153,22 @@ namespace Sistema_Compra_Venta
             // PCons
             // 
             this.PCons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.PCons.Controls.Add(this.label13);
             this.PCons.Controls.Add(this.dataGridView1);
-            this.PCons.Controls.Add(this.label14);
             this.PCons.Controls.Add(this.txtCNombreProd);
             this.PCons.Controls.Add(this.btnConsulta);
-            this.PCons.Location = new System.Drawing.Point(481, 12);
+            this.PCons.Location = new System.Drawing.Point(487, 12);
             this.PCons.Name = "PCons";
             this.PCons.Size = new System.Drawing.Size(420, 229);
-            this.PCons.TabIndex = 21;
+            this.PCons.TabIndex = 25;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(28, 64);
+            this.dataGridView1.Location = new System.Drawing.Point(19, 60);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(372, 150);
             this.dataGridView1.TabIndex = 10;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(25, 8);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(90, 13);
-            this.label14.TabIndex = 9;
-            this.label14.Text = "Nombre Producto";
-            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // txtCNombreProd
             // 
@@ -231,6 +189,8 @@ namespace Sistema_Compra_Venta
             // PAdd
             // 
             this.PAdd.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.PAdd.Controls.Add(this.label8);
+            this.PAdd.Controls.Add(this.textBox1);
             this.PAdd.Controls.Add(this.comboBox1);
             this.PAdd.Controls.Add(this.label5);
             this.PAdd.Controls.Add(this.label4);
@@ -242,55 +202,63 @@ namespace Sistema_Compra_Venta
             this.PAdd.Controls.Add(this.txtDesgral);
             this.PAdd.Controls.Add(this.txtNombreProd);
             this.PAdd.Controls.Add(this.btnAdd);
-            this.PAdd.Location = new System.Drawing.Point(8, 9);
+            this.PAdd.Location = new System.Drawing.Point(14, 9);
             this.PAdd.Name = "PAdd";
             this.PAdd.Size = new System.Drawing.Size(420, 229);
-            this.PAdd.TabIndex = 19;
+            this.PAdd.TabIndex = 23;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(16, 60);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.TabIndex = 14;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Location = new System.Drawing.Point(125, 148);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(37, 13);
+            this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 13;
-            this.label5.Text = "Precio";
+            this.label5.Text = "Ciudad";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(125, 122);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(109, 13);
+            this.label4.Size = new System.Drawing.Size(42, 13);
             this.label4.TabIndex = 12;
-            this.label4.Text = "Descripcion completa";
+            this.label4.Text = "Colonia";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Location = new System.Drawing.Point(36, 80);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(101, 13);
+            this.label3.Size = new System.Drawing.Size(82, 13);
             this.label3.TabIndex = 11;
-            this.label3.Text = "Descripcion general";
+            this.label3.Text = "Numero Exterior";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(36, 44);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(42, 13);
+            this.label2.Size = new System.Drawing.Size(30, 13);
             this.label2.TabIndex = 10;
-            this.label2.Text = "Imagen";
+            this.label2.Text = "Calle";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(36, 8);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(89, 13);
+            this.label1.Size = new System.Drawing.Size(57, 13);
             this.label1.TabIndex = 9;
-            this.label1.Text = "Nombre producto";
+            this.label1.Text = "ID Usuario";
             // 
             // txtPrecio
             // 
@@ -328,80 +296,149 @@ namespace Sistema_Compra_Venta
             this.btnAdd.TabIndex = 0;
             this.btnAdd.Text = "Agregar";
             this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(127, 174);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(72, 13);
+            this.label8.TabIndex = 16;
+            this.label8.Text = "Codigo Postal";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(21, 171);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 15;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(125, 165);
+            this.label6.Location = new System.Drawing.Point(127, 182);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(37, 13);
-            this.label6.TabIndex = 21;
-            this.label6.Text = "Precio";
+            this.label6.Size = new System.Drawing.Size(72, 13);
+            this.label6.TabIndex = 30;
+            this.label6.Text = "Codigo Postal";
             // 
-            // label7
+            // textBox2
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(125, 138);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(109, 13);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Descripcion completa";
-            // 
-            // dsad
-            // 
-            this.dsad.AutoSize = true;
-            this.dsad.Location = new System.Drawing.Point(18, 80);
-            this.dsad.Name = "dsad";
-            this.dsad.Size = new System.Drawing.Size(101, 13);
-            this.dsad.TabIndex = 19;
-            this.dsad.Text = "Descripcion general";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(48, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(42, 13);
-            this.label9.TabIndex = 14;
-            this.label9.Text = "Imagen";
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(30, 5);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(89, 13);
-            this.label10.TabIndex = 14;
-            this.label10.Text = "Nombre producto";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(16, 60);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 14;
+            this.textBox2.Location = new System.Drawing.Point(21, 179);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.TabIndex = 29;
             // 
             // comboBox2
             // 
             this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(16, 57);
+            this.comboBox2.Location = new System.Drawing.Point(16, 68);
             this.comboBox2.Name = "comboBox2";
             this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 15;
+            this.comboBox2.TabIndex = 28;
             // 
-            // Productos
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(125, 156);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(40, 13);
+            this.label7.TabIndex = 27;
+            this.label7.Text = "Ciudad";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(125, 130);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(42, 13);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "Colonia";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(36, 88);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(82, 13);
+            this.label10.TabIndex = 25;
+            this.label10.Text = "Numero Exterior";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(36, 52);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(30, 13);
+            this.label11.TabIndex = 24;
+            this.label11.Text = "Calle";
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(36, 16);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(57, 13);
+            this.label12.TabIndex = 23;
+            this.label12.Text = "ID Usuario";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(19, 153);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.TabIndex = 22;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(19, 127);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 20);
+            this.textBox4.TabIndex = 21;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(19, 101);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 20);
+            this.textBox5.TabIndex = 20;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(19, 29);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.TabIndex = 19;
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(25, 5);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(66, 13);
+            this.label14.TabIndex = 19;
+            this.label14.Text = "ID Direccion";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(25, 18);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(66, 13);
+            this.label13.TabIndex = 19;
+            this.label13.Text = "ID Direccion";
+            // 
+            // Direccion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(913, 479);
+            this.ClientSize = new System.Drawing.Size(932, 485);
             this.Controls.Add(this.PDel);
             this.Controls.Add(this.pModificar);
             this.Controls.Add(this.PCons);
             this.Controls.Add(this.PAdd);
-            this.Name = "Productos";
-            this.Text = "Productos";
+            this.Name = "Direccion";
+            this.Text = "Direccion";
             this.PDel.ResumeLayout(false);
             this.PDel.PerformLayout();
             this.pModificar.ResumeLayout(false);
@@ -418,23 +455,18 @@ namespace Sistema_Compra_Venta
         #endregion
 
         private System.Windows.Forms.Panel PDel;
-        private System.Windows.Forms.Label label22;
         private System.Windows.Forms.TextBox txtENombreUsuario;
         private System.Windows.Forms.Button btnDel;
         private System.Windows.Forms.Panel pModificar;
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox txtID;
-        private System.Windows.Forms.TextBox txtMPrecio;
-        private System.Windows.Forms.TextBox txtDesCompl;
-        private System.Windows.Forms.TextBox txtMDesgral;
-        private System.Windows.Forms.TextBox txtMNomProd;
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Panel PCons;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.Label label14;
         private System.Windows.Forms.TextBox txtCNombreProd;
         private System.Windows.Forms.Button btnConsulta;
         private System.Windows.Forms.Panel PAdd;
+        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
@@ -445,12 +477,21 @@ namespace Sistema_Compra_Venta
         private System.Windows.Forms.TextBox txtDesgral;
         private System.Windows.Forms.TextBox txtNombreProd;
         private System.Windows.Forms.Button btnAdd;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label dsad;
+        private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Label label13;
     }
 }
