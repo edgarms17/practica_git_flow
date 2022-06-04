@@ -1,0 +1,50 @@
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\bin\Debug\proyecto1.exe.config
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\bin\Debug\proyecto1.exe
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\bin\Debug\proyecto1.pdb
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.Form1.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.login.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.Properties.Resources.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.csproj.GenerateResource.Cache
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.exe
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.pdb
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.curso.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.departamento.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.docentes.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.grupo.resources
+c:\users\edgar\documents\visual studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.instructor.resources
+C:\Users\edgar\Documents\Visual Studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.csprojResolveAssemblyReference.cache
+C:\Users\edgar\Documents\Visual Studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.plazacs.resources
+C:\Users\edgar\Documents\Visual Studio 2013\Projects\proyecto1\proyecto1\obj\Debug\proyecto1.asistencia.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\bin\Debug\proyecto1.exe.config
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.exe
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.pdb
+C:\Users\edgar\Desktop\proyecto1\proyecto1\bin\Debug\proyecto1.exe
+C:\Users\edgar\Desktop\proyecto1\proyecto1\bin\Debug\proyecto1.pdb
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.csprojResolveAssemblyReference.cache
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.login.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.Properties.Resources.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.csproj.GenerateResource.Cache
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.Form1.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.logincajero.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.cajero.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.cajeros.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.inventario.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.vender.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\obj\Debug\proyecto1.clientes.resources
+C:\Users\edgar\Desktop\proyecto1\proyecto1\bin\Debug\itextsharp.dll
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\bin\Debug\proyecto1.exe.config
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.exe
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.pdb
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\bin\Debug\proyecto1.exe
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\bin\Debug\proyecto1.pdb
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.csprojResolveAssemblyReference.cache
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.cajero.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.cajeros.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.clientes.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.Form1.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.inventario.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.login.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.logincajero.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.Properties.Resources.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.vender.resources
+C:\Users\Edgar\Desktop\proyecto1\proyecto1\proyecto1\obj\Debug\proyecto1.csproj.GenerateResource.Cache
